@@ -1,0 +1,37 @@
+.wraper-form{
+    display: flex;
+    flex-direction: column;
+}
+.input-wraper{
+    max-width: 700px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    color: brown;
+}
+.btn-send{
+    width: 250px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    margin-top: 2px;
+}
+.input-wraper::placeholder,
+.textarea-wraper::placeholder{
+    color: rgb(255, 15, 243)
+}
+.input-wraper:focus{
+    outline: none;
+}
+.textarea-wraper{
+    
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    
+}
+.textarea-wraper:focus{
+    outline: none;
+}
